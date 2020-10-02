@@ -59,8 +59,8 @@ onload =function() {
     }
 
     function displayBodyTable() {
-        const row = table.insertRow();
         employees.forEach((employee) => {
+            const row = table.insertRow();
             row.setAttribute('id', employee.id)
             const fnameCell = row.insertCell();
             const lnameCell = row.insertCell();
