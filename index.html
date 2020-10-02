@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+        <!-- Jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+        <!-- google font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <!-- google icon -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- boostrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+    <form>
+        <div class="form-row">
+             <div class="input-group mb-3 col-6">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">First Name</span>
+                          </div>
+                        <label class="sr-only" for="task">First Name</label>
+                        <input type="text" class="form-control" id="fname-input" placeholder="Add your First Name">
+            </div>
+
+            <div class="input-group mb-3 col-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Last Name</span>
+                  </div>
+                <label class="sr-only" for="task">Last Name</label>
+                <input type="text" class="form-control" id="lname-input" placeholder="Add your First Name">
+            </div>
+
+            <div class="input-group mb-3 col-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Email</span>
+                  </div>
+                <label class="sr-only" for="task">Email</label>
+                <input type="email" class="form-control" id="email-input" placeholder="Add your First Name">
+            </div>
+
+            <div class="input-group mb-3 col-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Joined Date</span>
+                  </div>
+                <label class="sr-only" for="task">Joined Date</label>
+                <input type="date" class="form-control" id="date-input" placeholder="Add your First Name">
+            </div>
+
+            <div class="input-group mb-3 col-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">City</span>
+                  </div>
+                <label class="sr-only" for="task">City</label>
+                <input type="text" class="form-control" id="city-input" placeholder="Add your First Name">
+            </div>
+
+            <div class="input-group mb-3 col-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Postal code</span>
+                  </div>
+                <label class="sr-only" for="task">Postal code</label>
+                <input type="text" class="form-control" id="address-input" placeholder="Add your First Name">
+            </div>
+        </div>
+    </form>
+        <button type="submit" id="btn-submit" >Add</button>
+    <button id="btn-show">Show</button>
+    <div id="table" class="mt-4"></div>
+</div>
+</body>
+</html>

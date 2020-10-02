@@ -1,0 +1,30 @@
+
+
+.container{
+    width: 900px;
+    height: auto;
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(220, 218, 216);
+}
+input{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.input-group{
+    display: flex;
+}
+
+
+#table td{
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+#btn-submit, #btn-show{
+    padding: 5px;
+    width: 100px;
+}
