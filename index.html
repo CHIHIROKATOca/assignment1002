@@ -69,10 +69,26 @@
                 <label class="sr-only" for="task">Postal code</label>
                 <input type="text" class="form-control" id="address-input" placeholder="Add your First Name">
             </div>
+
+            <div class="input-group mb-3  col-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Avalibalities</span>
+                  </div>
+                <label class="sr-only" for="task">Postal code</label>
+                <select multiple class="form-contorol" id="my-select">
+                    <option value="sunday">Sunday</option>
+                    <option value="monday">Monday</option>
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                    <option value="suturday">Suturday</option>
+                </select>
+            </div>
         </div>
     </form>
-        <button type="submit" id="btn-submit" class="btn btn-secondary">Add</button>
-    <button id="btn-show" class="btn btn-warning">Show</button>
+        <button type="submit" id="btn-submit" class="btn btn-warning">Add</button>
+    <button id="btn-show" class="btn btn-warning">Show Info</button>
     <div id="table" class="mt-4"></div>
 </div>
 </body>
